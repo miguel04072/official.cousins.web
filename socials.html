@@ -5,31 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Socials - COUSINS OFFICIAL</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>COUSINS OFFICIAL</h1>
+        <div class="header-content">
+            <h1 style="font-family: 'Times New Roman', serif;">COUSINS OFFICIAL</h1>
+            <div class="menu-icon" onclick="toggleSidebar()">⋮</div>
+        </div>
     </header>
-
-    <div class="sidebar">
-        <ul>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="videos.html">Videos</a></li>
-            <li><a href="socials.html">Socials</a></li>
-        </ul>
-    </div>
-
-    <div class="content">
-        <h2>Our Social Media</h2>
-        <ul>
-            <li><a href="https://www.facebook.com/profile.php?id=100063665155117&mibextid=ZbWKwL" target="_blank">Facebook</a></li>
-            <li><a href="https://www.youtube.com/@cousinsofficial24" target="_blank">YouTube</a></li>
-            <li><a href="https://www.instagram.com/csns.2020?igsh=YjRvdmJoeWZtaXlj" target="_blank">Instagram</a></li>
-        </ul>
-    </div>
-
+    <aside id="sidebar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+                <li><a href="videos.html" target="_blank">Videos</a></li>
+                <li><a href="socials.html" target="_blank">Socials</a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <section>
+            <h2>Social Media</h2>
+            <p><a href="https://www.facebook.com/profile.php?id=100063665155117&mibextid=ZbWKwL" target="_blank">Facebook</a></p>
+            <p><a href="https://www.youtube.com/@cousinsofficial24" target="_blank">YouTube</a></p>
+            <p><a href="https://www.instagram.com/csns.2020?igsh=YjRvdmJoeWZtaXlj" target="_blank">Instagram</a></p>
+        </section>
+    </main>
     <footer>
-        <p>© COUSINS OFFICIAL ALL RIGHTS RESERVED</p>
+        <p>©COUSINS OFFICIAL ALL RIGHTS RESERVED</p>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
