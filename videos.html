@@ -3,46 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COUSINS OFFICIAL - Videos</title>
+    <title>Videos - COUSINS OFFICIAL</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="header-container">
-            <button class="sidebar-toggle" onclick="toggleSidebar()">&#x2022;&#x2022;&#x2022;</button>
-            <h1>COUSINS OFFICIAL</h1>
+        <div class="header-content">
+            <h1 style="font-family: 'Times New Roman', serif;">COUSINS OFFICIAL</h1>
+            <div class="menu-icon" onclick="toggleSidebar()">⋮</div>
         </div>
     </header>
-
-    <nav id="sidebar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="videos.html">Videos</a></li>
-            <li><a href="socials.html">Socials</a></li>
-        </ul>
-    </nav>
-
+    <aside id="sidebar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+                <li><a href="videos.html" target="_blank">Videos</a></li>
+                <li><a href="socials.html" target="_blank">Socials</a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
+            </ul>
+        </nav>
+    </aside>
     <main>
-        <section id="videos">
-            <h2>Cousins Video 1</h2>
-            <a href="https://www.facebook.com/share/v/19bkrJTzVK/" target="_blank">Watch on Facebook</a>
-            <h2>Cousins Video 2</h2>
-            <a href="https://www.facebook.com/share/v/1CjmbQN5U5/" target="_blank">Watch on Facebook</a>
-            <h2>Cousins Video 3</h2>
-            <a href="https://www.facebook.com/share/v/15NjS3pKW9/" target="_blank">Watch on Facebook</a>
-            <h2>Cousins Video 4</h2>
-            <a href="https://www.facebook.com/share/v/1CqKj896Nn/" target="_blank">Watch on Facebook</a>
-            <h2>Cousins Video 5</h2>
-            <a href="https://www.facebook.com/share/v/15tkWLxSV6/" target="_blank">Watch on Facebook</a>
+        <section>
+            <h2>Videos</h2>
+            <div class="video">
+                <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/share/v/19bkrJTzVK/" width="500" height="280" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"></iframe>
+                <p>Cousins Video 1 - A performance from mid-2020.</p>
+            </div>
+            <div class="video">
+                <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/share/v/1CjmbQN5U5/" width="500" height="280" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"></iframe>
+                <p>Cousins Video 2 - A new performance featuring unique singers.</p>
+            </div>
+            <div class="video">
+                <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/share/v/15NjS3pKW9/" width="500" height="280" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"></iframe>
+                <p>Cousins Video 3 - A special performance recorded with minimal effects.</p>
+            </div>
+            <div class="video">
+                <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/share/v/1CqKj896Nn/" width="500" height="280" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"></iframe>
+                <p>Cousins Video 4 - Another heavenly music performance by Cousins.</p>
+            </div>
+            <div class="video">
+                <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/share/v/15tkWLxSV6/" width="500" height="280" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"></iframe>
+                <p>Cousins Video 5 - The latest performance by Cousins, recorded in 2021.</p>
+            </div>
         </section>
     </main>
-
     <footer>
-        <p>© COUSINS OFFICIAL ALL RIGHTS RESERVED</p>
+        <p>©COUSINS OFFICIAL ALL RIGHTS RESERVED</p>
     </footer>
-
-    <script src="script.js"></script>
+    <script src="scripts.js"></script>
 </body>
-        </html>
-        
+</html>
